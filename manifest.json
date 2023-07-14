@@ -1,6 +1,6 @@
 {
-    "name": "playback",
-    "short_name": "playback",
+    "name": "zig_gps_telematics",
+    "short_name": "zig_gps_telematics",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
