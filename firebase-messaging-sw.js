@@ -1,13 +1,13 @@
 importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js");
 firebase.initializeApp({
-    apiKey: "AIzaSyBASSAnPYpHq8eozQ-_i2fEjTAoxAtrTW8",
-    authDomain: "zig-zig_gps_telematics.firebaseapp.com",
-    projectId: "zig-zig_gps_telematics",
-    storageBucket: "zig-zig_gps_telematics.appspot.com",
-    messagingSenderId: "828803516336",
-    appId: "1:828803516336:web:0d4c93db563da84bf5f875",
-    measurementId: "G-P2E2BTJVRY"
+    apiKey: "AIzaSyDOMATyxTyZS5rbAhUzSD8XzDG2IrF0p18",
+    authDomain: "playback-5de06.firebaseapp.com",
+    projectId: "playback-5de06",
+    storageBucket: "playback-5de06.appspot.com",
+    messagingSenderId: "25911682037",
+    appId: "1:25911682037:web:1645e27bcf29c0c5b836bc",
+    measurementId: "G-K52YXFJ49M"
   });
 const messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler(function (payload) {
